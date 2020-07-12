@@ -1,6 +1,6 @@
 # Speed up Python code with Carma
 
-Python is lovely, but what if you want something fast and lovely? 
+Python is lovely, but what if you want something both lovely and fast? 
 
 I'll show you how to get a **factor `250x` speedup** using wrapped `C++` code. 
 
