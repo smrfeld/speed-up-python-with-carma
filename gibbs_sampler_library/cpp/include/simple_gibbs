@@ -1,0 +1,6 @@
+#ifndef SIMPLE_GIBBS_H
+#define SIMPLE_GIBBS_H
+
+#include "simple_gibbs_bits/gibbs_sampler.hpp"
+
+#endif
