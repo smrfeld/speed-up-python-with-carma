@@ -47,7 +47,7 @@ arma::imat GibbsSampler::sample(const arma::imat &state_init, int no_steps) cons
 
         // Sample
         double r = arma::randu();
-        if (exp(energy_diff) < r) {
+        if (r < exp(energy_diff)) {
             // Flip
             state(i,j) = - state(i,j);
         }

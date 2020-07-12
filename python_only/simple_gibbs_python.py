@@ -61,7 +61,7 @@ class GibbsSampler:
 
             # Sample
             r = np.random.rand()
-            if np.exp(energy_diff) < r:
+            if r < np.exp(energy_diff):
                 # Flip 
                 state[i,j] = - state[i,j]
 

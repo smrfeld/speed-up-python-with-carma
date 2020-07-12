@@ -1,4 +1,4 @@
-import simple_gibbs_python as gs
+import simple_gibbs as gs
 import matplotlib.pyplot as plt
 import time
 
