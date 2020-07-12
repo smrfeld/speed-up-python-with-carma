@@ -6,6 +6,8 @@ I'll show you how to get a **factor `250x` speedup** using wrapped `C++` code.
 
 <img src="cover.jpg" alt="drawing" width="600"/>
 
+[Image source](https://www.flickr.com/photos/flickryeung/37534621620/in/album-72157688076103694/) and [license](https://creativecommons.org/licenses/by/2.0/).
+
 It's not Python's fault - more that of all interpereted languages. We start out by writing an algorithm that we understand, but is terrible in performance. We can try to optimize the code by reworking the algorithm, adding GPU support, etc., etc., but let's face it: optimizing code by hand is exhausting. Don't you just wish there were a magic... thing... existed that you could run over your code to make it faster? A magic thing called a... compiler?
 
 `pybind11` is a fantastic library you can use to wrap `C++` code into `Python` - and the modern `C++` compiler is a magic optimization wizard. 
