@@ -139,7 +139,7 @@ class GibbsSampler:
 
         return state
 ```
-We have two methods: one with returns a random state (a 2D NumPy array of 0 or 1), and one which takes an initial state, samples it, and returns the final state. 
+We have two methods: one with returns a random state (a 2D NumPy array of 0 or 1), and one which takes an initial state, samples it, and returns the final state.
 
 Let's write a simple test for it. Make a file called `test.py` with contents:
 ```
@@ -671,7 +671,9 @@ Bang! That's `250x` faster, even with the conversions! The pure `C++` code was `
 
 ## Final thoughts
 
-That's all for this intro. All credit to `Carma`, not the least for it's great [documentation](https://carma.readthedocs.io/en/latest/).
+That's all for this intro. All credit to `Carma`, not the least for it's great [documentation](https://carma.readthedocs.io/en/latest/). 
+
+There are other optimizations available in `Python` - the point here is not to push the `Python` code (or the `C++` code) to it's limit, but to show how a vanilla `C++` implementation can be used to speed up a vanilla `Python` code. Besides, in `Python` we focus on **legibility** - writing human readable algorithms. Using `C++` to speed up `Python` is great because we can let the compiler do the work of optimizing instead of polluting our code, keeping our algorithm simple and clean.
 
 [You can find the entire code for this project here.](https://github.com/smrfeld/speed-up-python-with-carma)
 
