@@ -16,7 +16,7 @@ The most common package in `Python` has to be `NumPy` - `NumPy` arrays are absol
 
 [Carma](https://carma.readthedocs.io/en/latest/) is exactly what you wanted - a library to help you wrap back and forth between `Armadillo` and `NumPy` data types. It's exactly what a `C++` library should be - header only, well documented, and powerful. You can grab the source for `Carma` [here](https://github.com/RUrlus/carma), and the documentation [here](https://carma.readthedocs.io/en/latest/).
 
-Here we will use Carma to wrap a simple Gibbs sampler for an Ising model. You can find the entire code for this project here.
+Here we will use Carma to wrap a simple Gibbs sampler for an Ising model. [You can find the entire code for this project here.](https://github.com/smrfeld/speed-up-python-with-carma)
 
 ## Overview of Carma
 
@@ -671,7 +671,7 @@ Bang! That's `250x` faster, even with the conversions! The pure `C++` code was `
 
 That's all for this intro. All credit to `Carma`, not the least for it's great [documentation](https://carma.readthedocs.io/en/latest/).
 
-You can find the entire code for this project here.
+[You can find the entire code for this project here.](https://github.com/smrfeld/speed-up-python-with-carma)
 
 Related articles in [Practical Coding](https://medium.com/practical-coding):
 * For a tutorial to get started with `Python`, `C++` and `pybind11` using `CMake`, [see this article here](https://medium.com/practical-coding/setting-up-a-c-python-project-with-pybind11-and-cmake-8de391494fca).
